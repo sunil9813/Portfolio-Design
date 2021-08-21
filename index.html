@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="brand">
+          <h2>PORTFOLIO</h2>
+        </div>
+        <nav>
+          <ul id="menuitem">
+            <li> <a href="#">HOME</a> </li>
+            <li> <a href="#">ABOUT</a> </li>
+            <li> <a href="#">PROJECT</a> </li>
+            <li> <a href="#">BLOG</a> </li>
+            <li> <a href="#">CONTACT</a> </li>
+          </ul>
+        </nav>
+        <span class="fa fa-bars" onclick="menutoggle()"></span>
+      </div>
+    </div>
+  </header>
+  <script>
+    var menuitem = document.getElementById("menuitem");
+    menuitem.style.maxHeight = "0px";
+
+    function menutoggle() {
+      if (menuitem.style.maxHeight == '0px') {
+        menuitem.style.maxHeight = "400px"
+      } else {
+        menuitem.style.maxHeight = "0px"
+      }
+    }
+  </script>
+
+
+  <section class="home background">
+    <div class="container flex">
+      <div class="left top">
+        <h2>I AM ALEX ANDER MY CREATIVE</h2>
+        <h1>PORTFOLIO</h1>
+        <button>Read more <i class="fa fa-long-arrow-right"></i> </button>
+      </div>
+      <div class="right">
+        <img src="image/home.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="design top center">
+    <div class="container">
+      <h2>UI/UX Design</h2>
+      <div class="items flex1 mtop">
+        <div class="box">
+          <h4>User Experience</h4>
+        </div>
+        <div class="box">
+          <h4>Interface Design</h4>
+        </div>
+        <div class="box">
+          <h4>Mobile App</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about center">
+    <div class="container">
+      <div class="line"> </div>
+      <h2>About</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <img src="image/a.png" alt="">
+    </div>
+  </section>
+
+  <section class="project top center">
+    <div class="container">
+      <h2>Our Project</h2>
+
+      <div class="item grid mtop">
+        <div class="box">
+          <img src="image/p1.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="image/p2.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="image/p3.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="image/p4.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="image/p5.jpg" alt="">
+        </div>
+        <div class="box">
+          <img src="image/p6.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrapper flex">
+    <div class="left">
+      <img src="image/p1.png" alt="">
+    </div>
+    <div class="right background">
+      <h2>Expand your horizons, explore ours.<br> It's all here.It's only here.</h2>
+      <p>Aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+  </section>
+
+
+  <section class="blog center top">
+    <div class="container">
+      <h2>See Our Blog</h2>
+
+      <div class="items grid mtop">
+        <div class="box">
+          <img src="image/w1.jpg" alt="">
+          <h3>Expand your horizons</h3>
+          <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box">
+          <img src="image/w2.jpg" alt="">
+          <h3>Expand your horizons</h3>
+          <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="box">
+          <img src="image/w1.jpg" alt="">
+          <h3>Expand your horizons</h3>
+          <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact top center">
+    <div class="container">
+      <h2>Contact Us</h2>
+
+      <form class="mtop">
+        <input type="text" placeholder="Full Name">
+        <input type="text" placeholder="Phone Number">
+        <input type="text" placeholder="Email Address">
+        <textarea name="name" rows="5" cols="80">Message</textarea>
+        <button>Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class=" background">
+    <div class="container">
+      <div class="items grid">
+        <div class="box">
+          <h2>PORTFOLIO</h2>
+        </div>
+        <div class="box">
+          <h2>Info</h2>
+          <p> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+        <div class="box">
+          <h2>Userfull Link</h2>
+          <span>HOME</span> <br><br>
+          <span>ABOU</span> <br><br>
+          <span>SERVICE</span> <br><br>
+          <span>BLOG</span> <br><br>
+          <span>CONTACT</span> <br><br>
+        </div>
+
+        <div class="box">
+          <h2>Follow Us</h2>
+
+          <div class="icon">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="legal">Copyright (c) 2021 Copyright Holder All Rights Reserved | This template is made by <i class="fa fa-heart"></i> Dot Studio</p>
+  </footer>
+
+</body>
+
+</html>
